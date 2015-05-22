@@ -1,0 +1,45 @@
+.top-bar {
+  background-color: #fff;
+  .title-area .name h1 a {
+    color: #000;
+  }
+  .top-bar-section .right li a {
+    background-color: #fff;
+    color: #000;
+  }
+}
+
+.title-image {
+  position: relative;
+  overflow: hidden;
+}
+
+.title-image .glenville-background {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: auto;
+  opacity: 0.6;
+
+}
+
+.title-image .glenville-logo {
+    width: 100%;
+    padding: 10%;
+    position: relative;
+    z-index: 2;
+}
+
+.directions-home {
+  background-color: #000;
+  color: #fff;
+}
+
+.news-home {
+  background-color: #fff;
+}
+
+.reservations-home {
+  background-color: #000;
+}

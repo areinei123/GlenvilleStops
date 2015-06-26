@@ -1,11 +1,11 @@
 Rails.application.routes.draw do
   
-  ComfortableMexicanSofa::Routing.admin(:path => '/cms-admin')
   
   # Make sure this routeset is defined last
-  ComfortableMexicanSofa::Routing.content(:path => '/', :sitemap => false)
   root 'homes#index'
   devise_for :users
+  ComfortableMexicanSofa::Routing.admin(:path => '/cms-admin')
+  ComfortableMexicanSofa::Routing.content(:path => '/', :sitemap => false)
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

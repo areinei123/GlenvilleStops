@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-gem 'comfortable_mexican_sofa', '~> 1.9.0'
+gem 'comfortable_mexican_sofa', '~> 1.12.1'
 gem 'rails', '4.2.1'
 gem 'pg'
 gem 'sass-rails', '~> 5.0'
